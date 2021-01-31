@@ -1,0 +1,27 @@
+{
+  "name": "street-roamer",
+  "version": "1.0.0",
+  "description": "Roam streets with google street view in VR",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "author": "Greg Ransons",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "@popperjs/core": "^2.6.0",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.0.0-beta1",
+    "noty": "^3.2.0-beta",
+    "vue": "^3.0.5",
+    "vuex": "^4.0.0-rc.2"
+  },
+  "devDependencies": {
+    "@snowpack/plugin-dotenv": "^2.0.5",
+    "@snowpack/plugin-run-script": "^2.3.0",
+    "@snowpack/plugin-vue": "^2.3.0",
+    "ncp": "^2.0.0",
+    "snowpack": "^3.0.11"
+  }
+}
