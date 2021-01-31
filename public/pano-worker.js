@@ -61,6 +61,9 @@ function getTile(panoId, tiles, x, y, context){
             createImageBitmap(blob).then(img => {
                 context.drawImage(img, tileWidth * x, tileHeight * y);
                 resolve(img);
+            }).catch(err => {
+                console.log(err);
+                reject();
             });
         }
 

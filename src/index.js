@@ -11,6 +11,11 @@ import Cadence from "./components/Cadence.vue";
 import XRScene from "./components/XRScene.vue";
 import appStore from './stores/appStore';
 
+import * as THREE from 'three/build/three.module.js';
+window.THREE = THREE;
+import { VRButton } from 'three/examples/jsm/webxr/VRButton.js';
+window.VRButton = VRButton;
+
 window.roamerUtils = {
   displayAxiosError(axiosError) {
     let message = axiosError.message;
